@@ -30,6 +30,11 @@ public class Huffman {
         return new String(bytes);
     }
 
+    
+    /** 
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         // args = new String[]{"-d", "ejemplo.huff"}; // Debugging
         // args = new String[]{"-c", "ejemplo.txt"};  // Debugging

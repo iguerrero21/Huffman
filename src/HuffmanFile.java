@@ -50,6 +50,11 @@ public class HuffmanFile implements Serializable {
         return bitSet;
     }
 
+    
+    /** 
+     * @param bitSet
+     * @return String
+     */
     public static String bit2String(BitSet bitSet) {
         String encoded = "";
         for (int i = 0; i < bitSet.length(); i++) {
